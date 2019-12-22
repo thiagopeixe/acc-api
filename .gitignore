@@ -1,0 +1,7 @@
+node_modules
+.env
+.env.local
+__tests__/coverage
+__tests__/database.sqlite
+*.gitkeep
+dist

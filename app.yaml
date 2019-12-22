@@ -1,0 +1,4 @@
+runtime: nodejs12
+
+beta_settings:
+  cloud_sql_instances: hiperv-223719:southamerica-east1:acc-desafio-bd-1
