@@ -138,6 +138,12 @@ class UserController {
 
     return res.status(201).json(usuarioOBJ);
   }
+
+  async index(req, res) {
+    const usuarios = Usuario.findAll();
+
+    return res.status(200).json(usuarios);
+  }
 }
 
 export default new UserController();

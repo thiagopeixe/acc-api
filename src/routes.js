@@ -9,6 +9,7 @@ routes.get('/', (req, res) => {
 routes.post('/usuarios', UserController.store);
 routes.post('/signin', SessionController.store);
 
+routes.get('/all', UserController.index);
 routes.get('/search/:user_id', UserController.show);
 
 routes.all('*', function(req, res) {
